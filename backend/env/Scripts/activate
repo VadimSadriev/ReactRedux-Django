@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'C:\Users\rogue-one\Desktop\projects\ReactDjango\backend\env'; else echo '/C/Users/rogue-one/Desktop/projects/ReactDjango/backend/env'; fi;)"
+VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'C:\Users\rogue-one\Desktop\projects\ReactRedux-Django\backend\env'; else echo '/C/Users/rogue-one/Desktop/projects/ReactRedux-Django/backend/env'; fi;)"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
